@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Written On His Hands";
+  src: url("writtenonhishands.ttf") format("truetype");
+}
+h1, p, a { 
+    font-family: "Written On His Hands", sans-serif ;
+    color: #0a73cf;
+    text-decoration: none;
+}
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
